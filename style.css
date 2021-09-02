@@ -31,11 +31,15 @@ main {
 h1 {
     color: white;
     font-size: 100px;
-    
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
 }
 
-p {
-    color: white;
+p.apresentacao{
+    color: gold;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 25px;
 }
 
 button {
@@ -44,10 +48,11 @@ button {
     border: 0px;
     border-radius: 100%;
     color: black;
-    background-color: rgb(202, 200, 187);
+    background-color: white;
 }
 
 button:hover {
-    background-color: white;
+    background-color:gold;
     color:black;
 }
+
