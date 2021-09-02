@@ -50,6 +50,7 @@ button {
     border-radius: 100%;
     color: black;
     background-color: white;
+    text-align: center;
 }
 
 button:hover {
@@ -57,3 +58,23 @@ button:hover {
     color:black;
 }
 
+.iconesRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+button.instagramicon:hover {
+    background: rgb(255,0,220);
+    background: linear-gradient(90deg, rgba(255,0,220,1) 0%, rgba(167,0,132,1) 35%, rgba(243,249,0,1) 100%);
+}
+
+button.linkdinicon:hover {
+    background-color: cornflowerblue;
+}
+
+div#linhahorizontal {
+    width: 25vw;
+    border: 1px solid #ffffffbb;
+}
