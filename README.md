@@ -11,4 +11,4 @@ o site pode ser acessado pelo link:https://samueltank.github.io/LandingPage/
 * CSS
 * VScode
 ## Screenshot
-![](imagem.png)
+![](image.png)
