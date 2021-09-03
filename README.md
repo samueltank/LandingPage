@@ -6,7 +6,7 @@ são paginas com foco principal de conversão de conversão dos visitante. Assim
 o site pode ser acessado pelo link: https://samueltank.github.io/LandingPage/
 
 [Samuel Tank](https://github.com/samueltank)
-## Tecnologias utilizadas
+## Técnologias utilizadas
 * HTMS
 * CSS
 * VScode
