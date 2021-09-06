@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(img/background.png);
+    background-image: url(img/backgroundnew.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,11 +53,6 @@ button {
     text-align: center;
 }
 
-button:hover {
-    background-color:rgb(255,0,220);
-    color:black;
-}
-
 .iconesRedes {
     display: flex;
     flex-direction: row;
@@ -72,6 +67,16 @@ button.instagramicon:hover {
 
 button.linkdinicon:hover {
     background-color: #8be9fd;
+}
+
+button:hover {
+    background-color:rgb(255,0,220);
+    color:black;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 div#linhahorizontal {
