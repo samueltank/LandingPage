@@ -11,8 +11,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #000000BB;
-    background-blend-mode: darken;
+    /* background-color: #000000BB; */
+    /* background-blend-mode: darken; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ h1 {
 }
 
 p.apresentacao{
-    color: gold;
+    color: rgb(255,0,220);
     font-family: 'Glory', sans-serif;
     font-style: italic;
     font-size: clamp(20px, 5vw, 60px);
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color:gold;
+    background-color:rgb(255,0,220);
     color:black;
 }
 
@@ -62,7 +62,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    gap: 1vw;
 }
 
 button.instagramicon:hover {
@@ -71,10 +71,11 @@ button.instagramicon:hover {
 }
 
 button.linkdinicon:hover {
-    background-color: cornflowerblue;
+    background-color: #8be9fd;
 }
 
 div#linhahorizontal {
     width: 25vw;
     border: 1px solid #ffffffbb;
 }
+
