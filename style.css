@@ -1,10 +1,13 @@
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
+    
     width: 100vw;
     height: 100vh;
     background-image: url(img/backgroundnew.jpg);
@@ -14,8 +17,10 @@ body {
     /* background-color: #000000BB; */
     /* background-blend-mode: darken; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 main {
@@ -25,62 +30,144 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 25px;
-
+    flex-grow: 1;
 }
 
 h1 {
+    
     color: white;
     font-size: clamp(40px, 10vw, 120px);
     font-family: 'Glory', sans-serif;
     font-weight: 100;
+
 }
 
 p.apresentacao{
-    color: rgb(255,0,220);
+    
+    color: #5ef0fe;
     font-family: 'Glory', sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: clamp(20px, 5vw, 60px);
     font-weight: 100;
+
+}
+
+a:link{
+    text-decoration: none;
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    
+    width: 160px;
+    height: 40px;
     border: 0px;
-    border-radius: 100%;
+    border-radius: 30px;
     color: black;
     background-color: white;
-    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    font-family:'Ubuntu Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+
+button.instagramicon{
+    
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%); 
+    color: white;
+    
+}
+
+button.linkdinicon{
+    
+    background-color: #0a66c2;
+    color: white;
+
+}
+
+button.githubicon{
+
+    background-color:#44475a;
+    color: white;
 }
 
 .iconesRedes {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1vw;
+
 }
 
 button.instagramicon:hover {
-    background: rgb(255,0,220);
-    background: linear-gradient(90deg, rgba(255,0,220,1) 0%, rgba(167,0,132,1) 35%, rgba(243,249,0,1) 100%);
+
+    background:white;
+    color: black;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 1 linear;
+    box-shadow: 0 0 0.3em gold;
+    border: 2px solid gold;
+
 }
 
 button.linkdinicon:hover {
-    background-color: #8be9fd;
+    
+    background-color: white;
+    color: black;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #0a66c2;
+    border: 2px solid #0a66c2;
+
 }
 
-button:hover {
-    background-color:rgb(255,0,220);
-    color:black;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+button.githubicon:hover {
+    
+    background-color: white;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #44475a;
+    color: black;
+    border: 2px solid #44475a;
+
 }
 
 div#linhahorizontal {
-    width: 25vw;
+ 
+    width: 30vw;
     border: 1px solid #ffffffbb;
+
 }
 
+footer{
+ 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Glory', sans-serif;
+    font-size: clamp(5px, 5vw, 15px);
+
+}
