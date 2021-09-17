@@ -39,6 +39,7 @@ h1 {
     font-size: clamp(40px, 10vw, 120px);
     font-family: 'Glory', sans-serif;
     font-weight: 100;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FF3B3F, 0 0 82px #FF3B3F, 0 0 92px #FF3B3F, 0 0 102px #FF3B3F, 0 0 151px #FF3B3F;
 
 }
 
@@ -77,7 +78,7 @@ button {
 }
 
 
-button.instagramicon{
+button.instagramIcon{
     
     background: rgb(252,176,69);
     background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%); 
@@ -85,16 +86,16 @@ button.instagramicon{
     
 }
 
-button.linkdinicon{
+button.linkdinIcon{
     
     background-color: #0a66c2;
     color: white;
 
 }
 
-button.githubicon{
+button.githubIcon{
 
-    background-color:#44475a;
+    background-color: #6B7A8F;
     color: white;
 }
 
@@ -103,11 +104,12 @@ button.githubicon{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 1vw;
 
 }
 
-button.instagramicon:hover {
+button.instagramIcon:hover {
 
     background:white;
     color: black;
@@ -117,13 +119,12 @@ button.instagramicon:hover {
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    transition: all 1 linear;
     box-shadow: 0 0 0.3em gold;
     border: 2px solid gold;
 
 }
 
-button.linkdinicon:hover {
+button.linkdinIcon:hover {
     
     background-color: white;
     color: black;
@@ -138,7 +139,7 @@ button.linkdinicon:hover {
 
 }
 
-button.githubicon:hover {
+button.githubIcon:hover {
     
     background-color: white;
     transition: all 0.15s linear;
@@ -147,9 +148,9 @@ button.githubicon:hover {
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    box-shadow: 0 0 0.3em #44475a;
+    box-shadow: 0 0 0.3em #6B7A8F;
     color: black;
-    border: 2px solid #44475a;
+    border: 2px solid #6B7A8F;
 
 }
 
