@@ -14,4 +14,4 @@ A web page pode ser acessada pelo link: https://samueltank.github.io/LandingPage
 * VScode
 
 ## Screenshot
-![](image.png)
+![](image.PNG)
