@@ -37,7 +37,7 @@ h1 {
     
     color: white;
     font-size: clamp(40px, 10vw, 120px);
-    font-family: 'Glory', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-weight: 100;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FF3B3F, 0 0 82px #FF3B3F, 0 0 92px #FF3B3F, 0 0 102px #FF3B3F, 0 0 151px #FF3B3F;
 
@@ -46,7 +46,7 @@ h1 {
 p.apresentacao{
     
     color: #5ef0fe;
-    font-family: 'Glory', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     /* font-style: italic; */
     font-size: clamp(20px, 5vw, 60px);
     font-weight: 100;
@@ -168,7 +168,7 @@ footer{
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Glory', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: clamp(5px, 5vw, 15px);
 
 }
